@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="100dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_height="100dp" >
+
+        <ImageView
+            android:id="@+id/home_recommendmaster_item_img"
+            android:layout_width="100dp"
+            android:scaleType="fitXY"
+            android:layout_height="100dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="#33777777"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/item_usertype_img"
+                android:layout_width="22dp"
+                android:layout_marginLeft="4dp"
+                android:layout_height="22dp"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"
+                android:src="@mipmap/home_level_vip_blue"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="bottom|left"
+                android:padding="5dp"
+                android:layout_alignParentBottom="true"
+                android:paddingBottom="5dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shapefour"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/home_recommendmaster_item_name"
+                        android:textSize="16dp"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="3dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/home_recommendmaster_item_intro"
+                        android:textColor="@color/white"
+                        android:textSize="12dp"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

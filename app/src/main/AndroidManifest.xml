@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:name=".api.app.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/push"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StartActivity" />
+        <activity android:name=".UI.main.view.activity.DonghuaActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UI.activity.LoginActivity" />
+        <activity android:name=".UI.activity.RegisterActivity" />
+        <activity android:name=".UI.activity.ForgetActivity" />
+        <activity android:name=".UI.activity.ResetActivity" />
+        <activity android:name=".UI.activity.SelectActivity" />
+        <activity android:name=".UI.activity.CompletionActivity" />
+        <activity android:name=".UI.main.MainPageActivity"></activity>
+        <activity android:name=".UI.main.view.fragment.activity.MasterActivity" />
+        <activity android:name=".UI.main.view.fragment.activity.XiehuiActivity" />
+        <activity android:name=".UI.main.view.fragment.activity.XianxiaActivity" />
+        <activity android:name=".UI.main.view.fragment.activity.mMains_Details_Activity" />
+        <activity android:name=".UI.main.view.fragment.Xingqu_activity.Main_Liaotian_Activity" />
+        <activity android:name=".UI.main.view.fragment.Xingqu_activity.ShiPingActivity" />
+        <activity android:name=".UI.main.view.fragment.main_livecourses_activity.LiveCoursesActivity" />
+        <activity android:name=".UI.main.view.fragment.Xingqu_activity.huifuActivity" />
+        <activity android:name=".UI.main.view.fragment.Xingqu_activity.KechengActivity" />
+        <activity android:name=".UI.main.view.fragment.art_fragment.yishu_xiangqing.Art_Xiangqing_Activity" />
+        <activity android:name=".UI.main.view.fragment.works_activity.mWorksActivity" />
+        <activity android:name=".UI.main.view.fragment.Xingqu_activity.XiangqingActivity" />
+        <activity android:name=".UI.main.view.activity.XuanzeActivity" />
+        <activity android:name=".UI.main.view.activity.FabuActivity" />
+        <activity android:name=".UI.main.view.activity.XiaoxiActivity" />
+        <activity android:name=".UI.main.view.activity.ShezhiActivity" />
+        <activity android:name=".UI.main.view.activity.TixingActivity" />
+        <activity android:name=".UI.main.view.activity.Xingqu1Activity" />
+        <activity android:name=".UI.main.view.activity.XingxiActivity" />
+        <activity android:name=".UI.main.view.activity.RenzhengActivity" />
+        <activity android:name=".UI.main.view.activity.YiKaoActivity" />
+        <activity android:name=".UI.main.view.activity.ZuopingActivity" />
+        <activity android:name=".UI.main.view.activity.Main12Activity" />
+        <activity android:name=".UI.main.view.activity.TieziActivity" />
+        <activity android:name=".UI.main.view.activity.Main14Activity" />
+        <activity android:name=".UI.main.view.activity.DianjiActivity" />
+        <activity android:name=".UI.main.view.activity.GuanzhuActivity" />
+        <activity android:name=".UI.main.view.activity.FengsiActivity" />
+        <activity android:name=".UI.main.view.activity.WodeActivity" />
+        <activity android:name=".UI.main.view.activity.ChongzhiActivity" />
+        <activity android:name=".UI.main.view.activity.XingquActivity"></activity>
+    </application>
+
+</manifest>

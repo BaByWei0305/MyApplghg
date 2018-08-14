@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="base_white">#FFFFFF</color>
+    <color name="white">#fffffb</color>
+    <color name="black">#130c0e</color>
+    <color name="blue">#00ae9d</color>
+    <color name="gray">#A7A8AE</color>
+    <color name="blues">#5491FF</color>
+    <color name="blue_brilliant">#00a0e9</color>
+
+    <color name="blue_arlt">#5491FF</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="guanzhu">#009094</color>
+
+    <color name="gray_fa">#f9f9f9</color>
+
+    <color name="login_line_c">#ededed</color>
+
+    <color name="base_text_color">#000000</color>
+    <color name="base_edit_color">#c4c4c4</color>
+
+    <color name="login_bg">#ededed</color>
+    <drawable name="dark_gray">#8F8F8F</drawable>
+    <drawable name="light_gray">#EEEEEE</drawable>
+    <drawable name="white">#FFFFFF</drawable>
+    <drawable name="black">#000000</drawable>
+    <drawable name="blue">#2A00FF</drawable>
+    <drawable name="green">#f0f0</drawable>
+    <drawable name="yellow">#FFFEA4</drawable>
+
+        <!--button中的文字变换色-->
+        <drawable name="button_text_white">#FFFFFF</drawable>
+        <drawable name="button_text_gray">#A4A4A4</drawable>
+        <string name="关注"></string>
+        <!--dialog button 背景色-->
+        <color name="button_bg_black">#212121</color>
+        <color name="button_bg_gray">#7a7a7a</color>
+
+</resources>

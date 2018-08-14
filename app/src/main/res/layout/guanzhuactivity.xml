@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#efefef"
+    tools:context=".UI.main.view.activity.GuanzhuActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/t"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关注"
+            android:textSize="15sp"
+            android:textColor="#5490fe"
+            />
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/center_container"
+        android:background="#fdfdfe"
+        android:orientation="horizontal"
+        >
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/malil"
+            app:riv_oval="true"/>
+
+        <TextView
+            android:textColor="#111"
+            android:layout_marginLeft="7dp"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="玛丽莲"/>
+
+        <ImageView
+            android:layout_marginLeft="7dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/home_level_vip_red"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:text="已关注"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="145dp"
+            android:textColor="@drawable/selector_btn_click_bg"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/center_container"
+        android:background="#fdfdfe"
+        android:orientation="horizontal"
+        >
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/user_img"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/luyisi"
+            app:riv_oval="true"/>
+
+        <TextView
+            android:textColor="#111"
+            android:layout_marginLeft="7dp"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="路易斯"/>
+
+        <ImageView
+            android:layout_marginLeft="7dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/home_level_vip_blue"/>
+
+        <Button
+            android:id="@+id/bt_ed_dialog_off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:text="已关注"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="145dp"
+            android:textColor="@drawable/selector_btn_click_bg"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
